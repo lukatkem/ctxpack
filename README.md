@@ -1,5 +1,7 @@
 # ctxpack — pack the maximum document value into a context window
 
+[![tests](https://github.com/lukatkem/ctxpack/actions/workflows/tests.yml/badge.svg)](https://github.com/lukatkem/ctxpack/actions/workflows/tests.yml) ![tests](https://img.shields.io/badge/tests-19_passing-2ea44f)
+
 **More documents than fit? Pack the maximum value — provably.** Every RAG
 system hits this daily: the retriever returns ten documents, the context window
 holds three. These packers choose which three — greedily, by value density, or
